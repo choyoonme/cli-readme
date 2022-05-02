@@ -1,5 +1,4 @@
 const inquirer = require('inquirer');
-const ListPrompt = require('inquirer/lib/prompts/list');
 
 const questions = [{
         //initial questions
