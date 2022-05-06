@@ -10,29 +10,33 @@ const genReadMe = obj => {
     # ${obj.title}
     
     ## Table of Contents
-    ${obj.tableOfContents}
+    [Description](#description)
+    [Installation](#installation)
+    [Usage](#usage)
+    [License](#license)
+    [Contributing](#contributing)
+    [Test](#test)
+    [Questions](#questions)
 
-    ## DESCRIPTION:
+    ## Description
     ${obj.description}
 
-    ## INSTALLATION:
+    ## Installation
     ${obj.installation}
 
-    ## License:
+    ## License
     ${license(obj.license)}
-    
-  
-    ## Contributions:
+
+    ## Contributing
     ${obj.contribution}
 
-    ## Test:
+    ## Test
     ${obj.tests}
 
-    # Questions:
-    ${obj.questions}
-    ${obj.emailAddress}
-    ${obj.gitHubUserName}
-    ${obj.gitHubLink}
+    # Questions
+    ${obj.questions}<br/>
+    Email me with any questions at ${obj.emailAddress}.<br/>
+    Find me on Github: [${obj.gitHubUserName}](http://www.github.com/${obj.gitHubUserName})<br/>
     
     `
     return output;

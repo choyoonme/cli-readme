@@ -24,15 +24,11 @@ const questions = [{
         //initial questions
         type: "input",
         name: "title",
-        message: "Enter name of your repository:"
+        message: "What is the name of your project?"
     }, {
         type: "input",
         name: "gitHubUserName",
         message: "Enter GitHub username:"
-    }, {
-        type: "input",
-        name: "gitHubLink",
-        message: "Provide link to GitHub profile:"
     }, {
         type: "input",
         name: "emailAddress",
@@ -42,27 +38,22 @@ const questions = [{
     {
         type: "input",
         name: "description",
-        message: "Enter brief description of project:"
-    },
-    {
-        type: "input",
-        name: "tableOfContents",
-        message: "List a Table of Contents, if any:"
+        message: "Enter a brief description of project:"
     },
     {
         type: "input",
         name: "installation",
-        message: "Briefly describe installation process:"
+        message: "Enter installation process:"
     },
     {
         type: "input",
         name: "usage",
-        message: "Briefly describe usage of project:"
+        message: "What is this project used for?"
     },
     {
         type: "list",
         name: "license",
-        message: "License:",
+        message: "Choose license(s) for this project:",
         choices: [
             "Apache",
             "Academic",
@@ -75,18 +66,18 @@ const questions = [{
     },
     {
         type: "input",
-        name: "contribution",
+        name: "contributing",
         message: "Name of contributor(s):"
     },
     {
         type: "input",
-        name: "tests",
-        message: "Test?"
+        name: "test",
+        message: "Test"
     },
     {
         type: "input",
         name: "questions",
-        message: "Any questions?"
+        message: "Questions?"
     },
 ];
 
