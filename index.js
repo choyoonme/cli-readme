@@ -38,17 +38,17 @@ const questions = [{
     {
         type: "input",
         name: "description",
-        message: "Enter a brief description of project:"
+        message: "Describe motivation for project and problems it might solve:"
     },
     {
         type: "input",
         name: "installation",
-        message: "Enter installation process:"
+        message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running."
     },
     {
         type: "input",
         name: "usage",
-        message: "What is this project used for?"
+        message: "Provide instructions and examples for use:"
     },
     {
         type: "list",
@@ -67,7 +67,7 @@ const questions = [{
     {
         type: "input",
         name: "contributing",
-        message: "Name of contributor(s):"
+        message: "Credits/Contributors:"
     },
     {
         type: "input",

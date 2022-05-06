@@ -1,5 +1,5 @@
 function license(badge) {
-    return `[![${badge}](https://img.shields.io/badge/license-${badge}-green.svg)]`
+    return `![${badge}](https://img.shields.io/badge/license-${badge}-green.svg)`
 }
 
 const genReadMe = obj => {
@@ -7,38 +7,41 @@ const genReadMe = obj => {
     // description, installation instructions, usage information, contribution guidelines, and test instructions
     let output =
         `
-    # ${obj.title}
+# ${obj.title}
     
-    ## Table of Contents
-    [Description](#description)
-    [Installation](#installation)
-    [Usage](#usage)
-    [License](#license)
-    [Contributing](#contributing)
-    [Test](#test)
-    [Questions](#questions)
+# Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Test](#test)
+7. [Questions](#questions)
 
-    ## Description
-    ${obj.description}
+# Description
+${obj.description}
 
-    ## Installation
-    ${obj.installation}
+# Usage
+${obj.usage}
 
-    ## License
-    ${license(obj.license)}
+# Installation
+${obj.installation}
 
-    ## Contributing
-    ${obj.contribution}
+# License
+${license(obj.license)}
 
-    ## Test
-    ${obj.tests}
+# Contributing
+${obj.contribution}
 
-    # Questions
-    ${obj.questions}<br/>
-    Email me with any questions at ${obj.emailAddress}.<br/>
-    Find me on Github: [${obj.gitHubUserName}](http://www.github.com/${obj.gitHubUserName})<br/>
-    
-    `
+# Test
+${obj.tests}
+
+# Questions
+${obj.questions}
+Email me with any questions at ${obj.emailAddress}.
+Find me on Github: [${obj.gitHubUserName}](http://www.github.com/${obj.gitHubUserName})
+
+`
     return output;
 }
 
