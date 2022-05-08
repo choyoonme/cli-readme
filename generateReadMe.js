@@ -37,6 +37,7 @@ ${obj.tests}
 # Questions
 ${obj.questions}
 Email me with any questions at ${obj.emailAddress}.
+
 Find me on Github: [${obj.gitHubUserName}](http://www.github.com/${obj.gitHubUserName})
 
 `
