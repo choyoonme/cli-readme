@@ -21,7 +21,6 @@ const genReadMe = obj => {
 ${obj.description}
 
 ## Usage
-${obj.usage}
 
 ## Installation
 ${obj.installation}
@@ -33,7 +32,6 @@ ${obj.contribution}
 ${obj.tests}
 
 ## Questions
-${obj.questions}
 Email me with any questions at ${obj.emailAddress}.
 
 Find me on Github: [${obj.gitHubUserName}](http://www.github.com/${obj.gitHubUserName})

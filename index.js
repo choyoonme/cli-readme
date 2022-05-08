@@ -27,7 +27,7 @@ const questions = [{
     {
         type: "input",
         name: "installation",
-        message: "The application will be invoked by using the following command:"
+        message: "Installation/Dependencies:"
     },
     {
         type: "list",
