@@ -1,5 +1,5 @@
 ![Apache](https://img.shields.io/badge/license-Apache-green.svg)
-# Professional README Generator
+# Professional README generator
 
 ## Table of Contents
 1. [Description](#description)
@@ -11,16 +11,16 @@
 7. [Questions](#questions)
 
 ## Description
-You can quickly and easily create a README file by using command-line application to generate one.  This allows the project creator to devote more time to working on the project.
+This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command-line using node.js
 
 ## Usage
-```md
+
 
 ## Installation
-Type  ```node index.js``` into the command-line and answer prompts.
+The user should clone the repository from GutHub and download Node.  This application also requires a file system and inquirer module.  The use can then type node index.js   
 
 ## Contributing
-```
+
 
 ## Test
 

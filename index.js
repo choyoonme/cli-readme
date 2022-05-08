@@ -27,12 +27,7 @@ const questions = [{
     {
         type: "input",
         name: "installation",
-        message: "What are the steps required to install your project?"
-    },
-    {
-        type: "input",
-        name: "usage",
-        message: "Enter acceptance criteria:"
+        message: "The application will be invoked by using the following command:"
     },
     {
         type: "list",
@@ -56,12 +51,7 @@ const questions = [{
     {
         type: "input",
         name: "tests",
-        message: "Test"
-    },
-    {
-        type: "input",
-        name: "questions",
-        message: "Questions?"
+        message: "Test instructions:"
     },
 ];
 
