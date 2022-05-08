@@ -5,7 +5,8 @@ function license(badge) {
 const genReadMe = obj => {
 
     // description, installation instructions, usage information, contribution guidelines, and test instructions
-    let output = `# ${obj.title}
+    let output = `${license(obj.license)}
+# ${obj.title}
 
 # Table of Contents
 1. [Description](#description)
@@ -24,9 +25,6 @@ ${obj.usage}
 
 # Installation
 ${obj.installation}
-
-# License
-${license(obj.license)}
 
 # Contributing
 ${obj.contribution}

@@ -19,7 +19,8 @@ describe("readme", () => {
             questions: "email",
             emailAddress: "mrfake@gmail.com",
             gitHubUserName: "mrfakeagain"
-        })).toEqual(`# project
+        })).toEqual(`![MIT](https://img.shields.io/badge/license-MIT-green.svg)
+# project
 
 # Table of Contents
 1. [Description](#description)
@@ -38,9 +39,6 @@ command line
 
 # Installation
 node index.js
-
-# License
-![MIT](https://img.shields.io/badge/license-MIT-green.svg)
 
 # Contributing
 names
