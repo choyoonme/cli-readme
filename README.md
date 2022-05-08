@@ -14,7 +14,7 @@
 This application is designed to prompt the user to answer a series of questions from the command-line. It will populate a markdown template with the user's input and create a polished README.
 
 ## Usage
-![README Generator gif](/readmegif.gif)
+![README Generator gif](./assets/readmegif.gif)
 
 You can view the full demo here: [Full demo](https://drive.google.com/file/d/1oO9Iopi2Kdcaq4UJd6P4OZsz_7C7qlGw/view) 
 
