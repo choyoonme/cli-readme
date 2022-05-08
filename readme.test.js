@@ -22,7 +22,7 @@ describe("readme", () => {
         })).toEqual(`![MIT](https://img.shields.io/badge/license-MIT-green.svg)
 # project
 
-# Table of Contents
+## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
@@ -31,22 +31,22 @@ describe("readme", () => {
 6. [Test](#test)
 7. [Questions](#questions)
 
-# Description
+## Description
 project
 
-# Usage
+## Usage
 command line
 
-# Installation
+## Installation
 node index.js
 
-# Contributing
+## Contributing
 names
 
-# Test
+## Test
 this
 
-# Questions
+## Questions
 email
 Email me with any questions at mrfake@gmail.com.
 

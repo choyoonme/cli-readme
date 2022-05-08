@@ -8,7 +8,7 @@ const genReadMe = obj => {
     let output = `${license(obj.license)}
 # ${obj.title}
 
-# Table of Contents
+## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
@@ -17,22 +17,22 @@ const genReadMe = obj => {
 6. [Test](#test)
 7. [Questions](#questions)
 
-# Description
+## Description
 ${obj.description}
 
-# Usage
+## Usage
 ${obj.usage}
 
-# Installation
+## Installation
 ${obj.installation}
 
-# Contributing
+## Contributing
 ${obj.contribution}
 
-# Test
+## Test
 ${obj.tests}
 
-# Questions
+## Questions
 ${obj.questions}
 Email me with any questions at ${obj.emailAddress}.
 
