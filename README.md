@@ -18,6 +18,8 @@ This application is designed to prompt the user to answer a series of questions 
 
 You can view the full demo here: [Full demo](https://drive.google.com/file/d/1oO9Iopi2Kdcaq4UJd6P4OZsz_7C7qlGw/view) 
 
+You can view a demo of the test here: [test demo](https://drive.google.com/file/d/1eZOvf_mJI5_ieIpG5KiNcm2jLY8K1ZNQ/view)
+
 ## Installation
 This application will require the Inquirer module and can be invoked by typing `node index.js`
 
