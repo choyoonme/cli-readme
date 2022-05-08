@@ -1,7 +1,7 @@
-![Open](https://img.shields.io/badge/license-Open-green.svg)
-# Generate README.md from command line
+![Apache](https://img.shields.io/badge/license-Apache-green.svg)
+# Professional README Generator
 
-# Table of Contents
+## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
@@ -10,22 +10,22 @@
 6. [Test](#test)
 7. [Questions](#questions)
 
-# Description
-User can answer prompts in commandline to populate a read me template using node.js
+## Description
+You can quickly and easily create a README file by using command-line application to generate one.  This allows the project creator to devote more time to working on the project.
 
-# Usage
-User input from the terminal using node.js will populate a readme template from the commandline.
+## Usage
+```md
 
-# Installation
-type node index.js
+## Installation
+Type  ```node index.js``` into the command-line and answer prompts.
 
-# Contributing
-Jen Cho
+## Contributing
+```
 
-# Test
-npm run test
+## Test
 
-# Questions
+
+## Questions
 
 Email me with any questions at yoonme@gmail.com.
 
