@@ -14,6 +14,9 @@
 This application is designed to prompt the user to answer a series of questions from the command-line. It will populate a markdown template with the user's input and create a polished README.
 
 ## Usage
+![README Generator gif](/readmegif.gif)
+
+You can view the full demo here: ![README Full Demo](./READMEdemo.mov)
 
 ## Installation
 This application will require the Inquirer module and can be invoked by typing `node index.js`
