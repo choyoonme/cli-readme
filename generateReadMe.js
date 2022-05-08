@@ -5,10 +5,8 @@ function license(badge) {
 const genReadMe = obj => {
 
     // description, installation instructions, usage information, contribution guidelines, and test instructions
-    let output =
-        `
-# ${obj.title}
-    
+    let output = `# ${obj.title}
+
 # Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
@@ -43,6 +41,9 @@ Find me on Github: [${obj.gitHubUserName}](http://www.github.com/${obj.gitHubUse
 
 `
     return output;
-}
+};
 
-module.exports = genReadMe;
+module.exports = {
+    genReadMe,
+    license,
+};

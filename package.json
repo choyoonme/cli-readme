@@ -1,14 +1,15 @@
 {
-  "name": "clireadme",
-  "version": "1.0.0",
-  "description": "script to generate readme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "choyoonme",
-  "license": "ISC",
-  "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+    "name": "clireadme",
+    "version": "1.0.0",
+    "description": "script to generate readme",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "choyoonme",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "jest": "^28.1.0"
+    }
 }
