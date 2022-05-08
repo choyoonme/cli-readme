@@ -50,12 +50,12 @@ const questions = [{
     },
     {
         type: "input",
-        name: "contributing",
+        name: "contribution",
         message: "Credits/Contributors:"
     },
     {
         type: "input",
-        name: "test",
+        name: "tests",
         message: "Test"
     },
     {
