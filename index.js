@@ -53,6 +53,10 @@ const questions = [{
         name: "tests",
         message: "Test instructions:"
     },
+    {
+        name: "done",
+        message: "OK! Your README has been generated!"
+    }
 ];
 
 inquirer.prompt(questions).then((answers) => {

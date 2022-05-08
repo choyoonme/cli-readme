@@ -1,5 +1,5 @@
 ![Apache](https://img.shields.io/badge/license-Apache-green.svg)
-# Professional README generator
+# 
 
 ## Table of Contents
 1. [Description](#description)
@@ -11,13 +11,13 @@
 7. [Questions](#questions)
 
 ## Description
-This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command-line using node.js
+
 
 ## Usage
-
+undefined
 
 ## Installation
-The user should clone the repository from GutHub and download Node.  This application also requires a file system and inquirer module.  The use can then type node index.js   
+
 
 ## Contributing
 
@@ -26,8 +26,8 @@ The user should clone the repository from GutHub and download Node.  This applic
 
 
 ## Questions
+undefined
+Email me with any questions at .
 
-Email me with any questions at yoonme@gmail.com.
-
-Find me on Github: [choyoonme](http://www.github.com/choyoonme)
+Find me on Github: [](http://www.github.com/)
 
